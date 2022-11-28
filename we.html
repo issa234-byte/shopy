@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eBYOSE</title>
+    <link rel="stylesheet" href="el.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="header">
+     <nav>
+        <a href="index.html"><img src="logo.jpg"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hiddenMenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">PRODUCT</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">CONTACT</a></li>
+                
+            </ul>
+        </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+         <h1>THE WORLD BEST DIGITAL MARKET</h1>
+         <P>The best online services with simplicity and speed </P>
+         <a href="shopfy.html"class="hero-btn"> Visit us to enroll more </a>
+
+        </div>
+    </section>
+<!------- course------->
+<section class="course">
+    <h1>our services</h1>
+    <p>the goods and srvices offered is on speed</p>
+    <div class="row">
+        <div class="course-col">
+       <h3>Heberlist</h3>
+       <p>The market of all qwat u need in your life <br>
+       all we need and our wants </p>
+        </div>
+        
+    <div class="course-col">
+        <h3>Food</h3>
+        <p>The market of all qwat u need in your life <br>
+        all we need and our wants </p>
+         </div>
+         <div class="course-col">
+            <h3>Electronic</h3>
+            <p>The market of all qwat u need in your life <br>
+            all we need and our wants </p>
+             </div>
+    </div>
+</section>
+ <!------- head------->
+<section class="head">
+    <div class="photo">
+    
+    </div>
+
+ <!--------javascript for toggle menu------->
+<script>
+  var navalinks=document.getElementById("navalinks");
+  function showMenu(){
+    navalinks.style.right="0";
+  }
+ function hiddenMenu { 
+    hiddenMenu.style.right="-200px";
+ }
+</script>
+</body>
+</html>
